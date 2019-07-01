@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0161CD17EA4B78001FFA78 /* Icon@120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0161CC17EA4B78001FFA78 /* Icon@120.png */; };
+		2A277214173ABBA0006A4000 /* KurzschriftCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A277213173ABBA0006A4000 /* KurzschriftCharacter.m */; };
+		2AA46F95173AF3A6009BEB59 /* braille.sql in Resources */ = {isa = PBXBuildFile; fileRef = 2AD1B858173AEF7200B17D01 /* braille.sql */; };
+		2AAC0B5F173A9A11004B39DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B5E173A9A11004B39DC /* UIKit.framework */; };
+		2AAC0B61173A9A11004B39DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B60173A9A11004B39DC /* Foundation.framework */; };
+		2AAC0B63173A9A11004B39DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B62173A9A11004B39DC /* CoreGraphics.framework */; };
+		2AAC0B69173A9A11004B39DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B67173A9A11004B39DC /* InfoPlist.strings */; };
+		2AAC0B6B173A9A11004B39DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC0B6A173A9A11004B39DC /* main.m */; };
+		2AAC0B6F173A9A11004B39DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC0B6E173A9A11004B39DC /* AppDelegate.m */; };
+		2AAC0B71173A9A12004B39DC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B70173A9A12004B39DC /* Default.png */; };
+		2AAC0B73173A9A12004B39DC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B72173A9A12004B39DC /* Default@2x.png */; };
+		2AAC0B75173A9A12004B39DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B74173A9A12004B39DC /* Default-568h@2x.png */; };
+		2AAC0B78173A9A12004B39DC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B76173A9A12004B39DC /* MainStoryboard_iPhone.storyboard */; };
+		2AAC0B7B173A9A12004B39DC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B79173A9A12004B39DC /* MainStoryboard_iPad.storyboard */; };
+		2AAC0B86173A9A12004B39DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B85173A9A12004B39DC /* SenTestingKit.framework */; };
+		2AAC0B87173A9A12004B39DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B5E173A9A11004B39DC /* UIKit.framework */; };
+		2AAC0B88173A9A12004B39DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B60173A9A11004B39DC /* Foundation.framework */; };
+		2AAC0B90173A9A12004B39DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC0B8E173A9A12004B39DC /* InfoPlist.strings */; };
+		2AAC0B93173A9A12004B39DC /* Braille_LernprogrammTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC0B92173A9A12004B39DC /* Braille_LernprogrammTests.m */; };
+		2AAC0B9D173A9B4F004B39DC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAC0B9C173A9B4F004B39DC /* libsqlite3.0.dylib */; };
+		2AAC0BA4173A9C74004B39DC /* Connector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC0BA3173A9C74004B39DC /* Connector.m */; };
+		2AAC0BAD173AA1BB004B39DC /* BrailleCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC0BAC173AA1BB004B39DC /* BrailleCharacter.m */; };
+		2AAC0BB0173AA1F6004B39DC /* BrailleDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC0BAF173AA1F6004B39DC /* BrailleDot.m */; };
+		2AC99CF1173BAB4700259FBD /* BrailleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC99CEF173BAB4700259FBD /* BrailleListViewController.m */; };
+		2AC99CF2173BAB4700259FBD /* BrailleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC99CF0173BAB4700259FBD /* BrailleListViewController.xib */; };
+		2AC99CF6173BAFDF00259FBD /* KSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC99CF4173BAFDF00259FBD /* KSMenuViewController.m */; };
+		2AC99CF7173BAFDF00259FBD /* KSMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC99CF5173BAFDF00259FBD /* KSMenuViewController.xib */; };
+		2AC99CFB173BB59800259FBD /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC99CF9173BB59800259FBD /* KSViewController.m */; };
+		2AC99CFC173BB59800259FBD /* KSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC99CFA173BB59800259FBD /* KSViewController.xib */; };
+		2ACE2A3017E9C2CE0035442C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE2A2F17E9C2CE0035442C /* Icon.png */; };
+		2ACE2A3217E9C2D30035442C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE2A3117E9C2D30035442C /* Icon@2x.png */; };
+		2AD1B851173ADAB700B17D01 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD1B84F173ADAB700B17D01 /* MainMenuViewController.m */; };
+		2AD1B852173ADAB700B17D01 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD1B850173ADAB700B17D01 /* MainMenuViewController.xib */; };
+		2AD1B856173ADDC900B17D01 /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD1B854173ADDC900B17D01 /* VSViewController.m */; };
+		2AD1B857173ADDC900B17D01 /* VSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD1B855173ADDC900B17D01 /* VSViewController.xib */; };
+		2AD1B859173AEF7200B17D01 /* braille.sql in Resources */ = {isa = PBXBuildFile; fileRef = 2AD1B858173AEF7200B17D01 /* braille.sql */; };
+		2ADC006417F46C3E005E61DC /* coloredButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC006317F46C3E005E61DC /* coloredButton.m */; };
+		2ADC006717F481C7005E61DC /* Icon@58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC006517F481C7005E61DC /* Icon@58.png */; };
+		2ADC006817F481C7005E61DC /* Icon@80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC006617F481C7005E61DC /* Icon@80.png */; };
+		2AE64501173BC5D700E7BCC2 /* VSListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE644FF173BC5D700E7BCC2 /* VSListViewController.m */; };
+		2AE64502173BC5D700E7BCC2 /* VSListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE64500173BC5D700E7BCC2 /* VSListViewController.xib */; };
+		2AE6450A173BCA6000E7BCC2 /* KSListMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE64508173BCA5F00E7BCC2 /* KSListMenuViewController.m */; };
+		2AE6450B173BCA6000E7BCC2 /* KSListMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE64509173BCA5F00E7BCC2 /* KSListMenuViewController.xib */; };
+		2AE6450F173BCB8100E7BCC2 /* KSListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6450D173BCB8100E7BCC2 /* KSListViewController.m */; };
+		2AE64510173BCB8100E7BCC2 /* KSListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6450E173BCB8100E7BCC2 /* KSListViewController.xib */; };
+		95B6D88817CB850200694E10 /* filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B6D88617CB850200694E10 /* filled.png */; };
+		95B6D88917CB850200694E10 /* unfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B6D88717CB850200694E10 /* unfilled.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AAC0B89173A9A12004B39DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AAC0B53173A9A11004B39DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AAC0B5A173A9A11004B39DC;
+			remoteInfo = "Braille-Lernprogramm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0161CC17EA4B78001FFA78 /* Icon@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@120.png"; path = "../../../../../../Volumes/NO NAME/App-Bilder/Icon@120.png"; sourceTree = "<group>"; };
+		2A277212173ABBA0006A4000 /* KurzschriftCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KurzschriftCharacter.h; sourceTree = "<group>"; };
+		2A277213173ABBA0006A4000 /* KurzschriftCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KurzschriftCharacter.m; sourceTree = "<group>"; };
+		2AAC0B5B173A9A11004B39DC /* Braille Übungen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Braille Übungen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAC0B5E173A9A11004B39DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AAC0B60173A9A11004B39DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AAC0B62173A9A11004B39DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AAC0B66173A9A11004B39DC /* Braille Übungen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Braille Übungen-Info.plist"; sourceTree = "<group>"; };
+		2AAC0B68173A9A11004B39DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AAC0B6A173A9A11004B39DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AAC0B6C173A9A11004B39DC /* Braille Übungen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Braille Übungen-Prefix.pch"; sourceTree = "<group>"; };
+		2AAC0B6D173A9A11004B39DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AAC0B6E173A9A11004B39DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AAC0B70173A9A12004B39DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2AAC0B72173A9A12004B39DC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2AAC0B74173A9A12004B39DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2AAC0B77173A9A12004B39DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2AAC0B7A173A9A12004B39DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2AAC0B84173A9A12004B39DC /* Braille ÜbungenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Braille ÜbungenTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAC0B85173A9A12004B39DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2AAC0B8D173A9A12004B39DC /* Braille ÜbungenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Braille ÜbungenTests-Info.plist"; sourceTree = "<group>"; };
+		2AAC0B8F173A9A12004B39DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AAC0B91173A9A12004B39DC /* Braille_LernprogrammTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Braille_LernprogrammTests.h; sourceTree = "<group>"; };
+		2AAC0B92173A9A12004B39DC /* Braille_LernprogrammTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Braille_LernprogrammTests.m; sourceTree = "<group>"; };
+		2AAC0B9C173A9B4F004B39DC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		2AAC0BA2173A9C74004B39DC /* Connector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.h; sourceTree = "<group>"; };
+		2AAC0BA3173A9C74004B39DC /* Connector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector.m; sourceTree = "<group>"; };
+		2AAC0BAB173AA1BB004B39DC /* BrailleCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleCharacter.h; sourceTree = "<group>"; };
+		2AAC0BAC173AA1BB004B39DC /* BrailleCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrailleCharacter.m; sourceTree = "<group>"; };
+		2AAC0BAE173AA1F6004B39DC /* BrailleDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleDot.h; sourceTree = "<group>"; };
+		2AAC0BAF173AA1F6004B39DC /* BrailleDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrailleDot.m; sourceTree = "<group>"; };
+		2AC99CEE173BAB4700259FBD /* BrailleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleListViewController.h; sourceTree = "<group>"; };
+		2AC99CEF173BAB4700259FBD /* BrailleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrailleListViewController.m; sourceTree = "<group>"; };
+		2AC99CF0173BAB4700259FBD /* BrailleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrailleListViewController.xib; sourceTree = "<group>"; };
+		2AC99CF3173BAFDF00259FBD /* KSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMenuViewController.h; sourceTree = "<group>"; };
+		2AC99CF4173BAFDF00259FBD /* KSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMenuViewController.m; sourceTree = "<group>"; };
+		2AC99CF5173BAFDF00259FBD /* KSMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSMenuViewController.xib; sourceTree = "<group>"; };
+		2AC99CF8173BB59800259FBD /* KSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		2AC99CF9173BB59800259FBD /* KSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		2AC99CFA173BB59800259FBD /* KSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSViewController.xib; sourceTree = "<group>"; };
+		2ACE2A2F17E9C2CE0035442C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		2ACE2A3117E9C2D30035442C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		2AD1B84E173ADAB700B17D01 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		2AD1B84F173ADAB700B17D01 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		2AD1B850173ADAB700B17D01 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		2AD1B853173ADDC900B17D01 /* VSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSViewController.h; sourceTree = "<group>"; };
+		2AD1B854173ADDC900B17D01 /* VSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSViewController.m; sourceTree = "<group>"; };
+		2AD1B855173ADDC900B17D01 /* VSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSViewController.xib; sourceTree = "<group>"; };
+		2AD1B858173AEF7200B17D01 /* braille.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = braille.sql; path = "Braille-Lernprogramm/braille.sql"; sourceTree = "<group>"; };
+		2ADC006217F46C3E005E61DC /* coloredButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coloredButton.h; sourceTree = "<group>"; };
+		2ADC006317F46C3E005E61DC /* coloredButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coloredButton.m; sourceTree = "<group>"; };
+		2ADC006517F481C7005E61DC /* Icon@58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@58.png"; path = "../Icon@58.png"; sourceTree = "<group>"; };
+		2ADC006617F481C7005E61DC /* Icon@80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@80.png"; path = "../Icon@80.png"; sourceTree = "<group>"; };
+		2AE644FE173BC5D700E7BCC2 /* VSListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSListViewController.h; sourceTree = "<group>"; };
+		2AE644FF173BC5D700E7BCC2 /* VSListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSListViewController.m; sourceTree = "<group>"; };
+		2AE64500173BC5D700E7BCC2 /* VSListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSListViewController.xib; sourceTree = "<group>"; };
+		2AE64503173BCA2600E7BCC2 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2AE64504173BCA2600E7BCC2 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2AE64505173BCA2600E7BCC2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AE64506173BCA2600E7BCC2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AE64507173BCA5F00E7BCC2 /* KSListMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSListMenuViewController.h; sourceTree = "<group>"; };
+		2AE64508173BCA5F00E7BCC2 /* KSListMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSListMenuViewController.m; sourceTree = "<group>"; };
+		2AE64509173BCA5F00E7BCC2 /* KSListMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSListMenuViewController.xib; sourceTree = "<group>"; };
+		2AE6450C173BCB8100E7BCC2 /* KSListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSListViewController.h; sourceTree = "<group>"; };
+		2AE6450D173BCB8100E7BCC2 /* KSListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSListViewController.m; sourceTree = "<group>"; };
+		2AE6450E173BCB8100E7BCC2 /* KSListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSListViewController.xib; sourceTree = "<group>"; };
+		95B6D88617CB850200694E10 /* filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filled.png; sourceTree = "<group>"; };
+		95B6D88717CB850200694E10 /* unfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unfilled.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAC0B58173A9A11004B39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC0B9D173A9B4F004B39DC /* libsqlite3.0.dylib in Frameworks */,
+				2AAC0B5F173A9A11004B39DC /* UIKit.framework in Frameworks */,
+				2AAC0B61173A9A11004B39DC /* Foundation.framework in Frameworks */,
+				2AAC0B63173A9A11004B39DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAC0B80173A9A12004B39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC0B86173A9A12004B39DC /* SenTestingKit.framework in Frameworks */,
+				2AAC0B87173A9A12004B39DC /* UIKit.framework in Frameworks */,
+				2AAC0B88173A9A12004B39DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAC0B52173A9A11004B39DC = {
+			isa = PBXGroup;
+			children = (
+				2AD1B858173AEF7200B17D01 /* braille.sql */,
+				2AAC0B9C173A9B4F004B39DC /* libsqlite3.0.dylib */,
+				2AAC0B64173A9A11004B39DC /* Braille-Lernprogramm */,
+				2AAC0B8B173A9A12004B39DC /* Braille-LernprogrammTests */,
+				2AAC0B5D173A9A11004B39DC /* Frameworks */,
+				2AAC0B5C173A9A11004B39DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AAC0B5C173A9A11004B39DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC0B5B173A9A11004B39DC /* Braille Übungen.app */,
+				2AAC0B84173A9A12004B39DC /* Braille ÜbungenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AAC0B5D173A9A11004B39DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC0B5E173A9A11004B39DC /* UIKit.framework */,
+				2AAC0B60173A9A11004B39DC /* Foundation.framework */,
+				2AAC0B62173A9A11004B39DC /* CoreGraphics.framework */,
+				2AAC0B85173A9A12004B39DC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AAC0B64173A9A11004B39DC /* Braille-Lernprogramm */ = {
+			isa = PBXGroup;
+			children = (
+				95B6D88617CB850200694E10 /* filled.png */,
+				95B6D88717CB850200694E10 /* unfilled.png */,
+				2AAC0B6D173A9A11004B39DC /* AppDelegate.h */,
+				2AAC0B6E173A9A11004B39DC /* AppDelegate.m */,
+				2AAC0B76173A9A12004B39DC /* MainStoryboard_iPhone.storyboard */,
+				2AAC0B79173A9A12004B39DC /* MainStoryboard_iPad.storyboard */,
+				2AAC0B65173A9A11004B39DC /* Supporting Files */,
+				2AAC0BA2173A9C74004B39DC /* Connector.h */,
+				2AAC0BA3173A9C74004B39DC /* Connector.m */,
+				2AAC0BAB173AA1BB004B39DC /* BrailleCharacter.h */,
+				2AAC0BAC173AA1BB004B39DC /* BrailleCharacter.m */,
+				2AAC0BAE173AA1F6004B39DC /* BrailleDot.h */,
+				2AAC0BAF173AA1F6004B39DC /* BrailleDot.m */,
+				2A277212173ABBA0006A4000 /* KurzschriftCharacter.h */,
+				2A277213173ABBA0006A4000 /* KurzschriftCharacter.m */,
+				2AD1B84E173ADAB700B17D01 /* MainMenuViewController.h */,
+				2AD1B84F173ADAB700B17D01 /* MainMenuViewController.m */,
+				2AD1B850173ADAB700B17D01 /* MainMenuViewController.xib */,
+				2AD1B853173ADDC900B17D01 /* VSViewController.h */,
+				2AD1B854173ADDC900B17D01 /* VSViewController.m */,
+				2AD1B855173ADDC900B17D01 /* VSViewController.xib */,
+				2AC99CEE173BAB4700259FBD /* BrailleListViewController.h */,
+				2AC99CEF173BAB4700259FBD /* BrailleListViewController.m */,
+				2AC99CF0173BAB4700259FBD /* BrailleListViewController.xib */,
+				2AC99CF3173BAFDF00259FBD /* KSMenuViewController.h */,
+				2AC99CF4173BAFDF00259FBD /* KSMenuViewController.m */,
+				2AC99CF5173BAFDF00259FBD /* KSMenuViewController.xib */,
+				2AC99CF8173BB59800259FBD /* KSViewController.h */,
+				2AC99CF9173BB59800259FBD /* KSViewController.m */,
+				2AC99CFA173BB59800259FBD /* KSViewController.xib */,
+				2AE644FE173BC5D700E7BCC2 /* VSListViewController.h */,
+				2AE644FF173BC5D700E7BCC2 /* VSListViewController.m */,
+				2AE64500173BC5D700E7BCC2 /* VSListViewController.xib */,
+				2AE64507173BCA5F00E7BCC2 /* KSListMenuViewController.h */,
+				2AE64508173BCA5F00E7BCC2 /* KSListMenuViewController.m */,
+				2AE64509173BCA5F00E7BCC2 /* KSListMenuViewController.xib */,
+				2AE6450C173BCB8100E7BCC2 /* KSListViewController.h */,
+				2AE6450D173BCB8100E7BCC2 /* KSListViewController.m */,
+				2AE6450E173BCB8100E7BCC2 /* KSListViewController.xib */,
+			);
+			path = "Braille-Lernprogramm";
+			sourceTree = "<group>";
+		};
+		2AAC0B65173A9A11004B39DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC006517F481C7005E61DC /* Icon@58.png */,
+				2ADC006617F481C7005E61DC /* Icon@80.png */,
+				2ACE2A3117E9C2D30035442C /* Icon@2x.png */,
+				2ACE2A2F17E9C2CE0035442C /* Icon.png */,
+				2A0161CC17EA4B78001FFA78 /* Icon@120.png */,
+				2AAC0B66173A9A11004B39DC /* Braille Übungen-Info.plist */,
+				2AAC0B67173A9A11004B39DC /* InfoPlist.strings */,
+				2AAC0B6A173A9A11004B39DC /* main.m */,
+				2AAC0B6C173A9A11004B39DC /* Braille Übungen-Prefix.pch */,
+				2AAC0B70173A9A12004B39DC /* Default.png */,
+				2AAC0B72173A9A12004B39DC /* Default@2x.png */,
+				2AAC0B74173A9A12004B39DC /* Default-568h@2x.png */,
+				2ADC006217F46C3E005E61DC /* coloredButton.h */,
+				2ADC006317F46C3E005E61DC /* coloredButton.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AAC0B8B173A9A12004B39DC /* Braille-LernprogrammTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC0B91173A9A12004B39DC /* Braille_LernprogrammTests.h */,
+				2AAC0B92173A9A12004B39DC /* Braille_LernprogrammTests.m */,
+				2AAC0B8C173A9A12004B39DC /* Supporting Files */,
+			);
+			path = "Braille-LernprogrammTests";
+			sourceTree = "<group>";
+		};
+		2AAC0B8C173A9A12004B39DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC0B8D173A9A12004B39DC /* Braille ÜbungenTests-Info.plist */,
+				2AAC0B8E173A9A12004B39DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AAC0B5A173A9A11004B39DC /* Braille Übungen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAC0B96173A9A12004B39DC /* Build configuration list for PBXNativeTarget "Braille Übungen" */;
+			buildPhases = (
+				2AAC0B57173A9A11004B39DC /* Sources */,
+				2AAC0B58173A9A11004B39DC /* Frameworks */,
+				2AAC0B59173A9A11004B39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Braille Übungen";
+			productName = "Braille-Lernprogramm";
+			productReference = 2AAC0B5B173A9A11004B39DC /* Braille Übungen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AAC0B83173A9A12004B39DC /* Braille ÜbungenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAC0B99173A9A12004B39DC /* Build configuration list for PBXNativeTarget "Braille ÜbungenTests" */;
+			buildPhases = (
+				2AAC0B7F173A9A12004B39DC /* Sources */,
+				2AAC0B80173A9A12004B39DC /* Frameworks */,
+				2AAC0B81173A9A12004B39DC /* Resources */,
+				2AAC0B82173A9A12004B39DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AAC0B8A173A9A12004B39DC /* PBXTargetDependency */,
+			);
+			name = "Braille ÜbungenTests";
+			productName = "Braille-LernprogrammTests";
+			productReference = 2AAC0B84173A9A12004B39DC /* Braille ÜbungenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AAC0B53173A9A11004B39DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander Eiselt";
+				TargetAttributes = {
+					2AAC0B5A173A9A11004B39DC = {
+						DevelopmentTeam = SNRJVJW7M2;
+					};
+				};
+			};
+			buildConfigurationList = 2AAC0B56173A9A11004B39DC /* Build configuration list for PBXProject "Braille Übungen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+			);
+			mainGroup = 2AAC0B52173A9A11004B39DC;
+			productRefGroup = 2AAC0B5C173A9A11004B39DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AAC0B5A173A9A11004B39DC /* Braille Übungen */,
+				2AAC0B83173A9A12004B39DC /* Braille ÜbungenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AAC0B59173A9A11004B39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA46F95173AF3A6009BEB59 /* braille.sql in Resources */,
+				2AAC0B69173A9A11004B39DC /* InfoPlist.strings in Resources */,
+				2AAC0B71173A9A12004B39DC /* Default.png in Resources */,
+				2AAC0B73173A9A12004B39DC /* Default@2x.png in Resources */,
+				2AAC0B75173A9A12004B39DC /* Default-568h@2x.png in Resources */,
+				2AAC0B78173A9A12004B39DC /* MainStoryboard_iPhone.storyboard in Resources */,
+				2AAC0B7B173A9A12004B39DC /* MainStoryboard_iPad.storyboard in Resources */,
+				2AD1B852173ADAB700B17D01 /* MainMenuViewController.xib in Resources */,
+				2AD1B857173ADDC900B17D01 /* VSViewController.xib in Resources */,
+				2AC99CF2173BAB4700259FBD /* BrailleListViewController.xib in Resources */,
+				2AC99CF7173BAFDF00259FBD /* KSMenuViewController.xib in Resources */,
+				2AC99CFC173BB59800259FBD /* KSViewController.xib in Resources */,
+				2AE64502173BC5D700E7BCC2 /* VSListViewController.xib in Resources */,
+				2ADC006817F481C7005E61DC /* Icon@80.png in Resources */,
+				2AE6450B173BCA6000E7BCC2 /* KSListMenuViewController.xib in Resources */,
+				2AE64510173BCB8100E7BCC2 /* KSListViewController.xib in Resources */,
+				95B6D88817CB850200694E10 /* filled.png in Resources */,
+				2ADC006717F481C7005E61DC /* Icon@58.png in Resources */,
+				95B6D88917CB850200694E10 /* unfilled.png in Resources */,
+				2ACE2A3017E9C2CE0035442C /* Icon.png in Resources */,
+				2ACE2A3217E9C2D30035442C /* Icon@2x.png in Resources */,
+				2A0161CD17EA4B78001FFA78 /* Icon@120.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAC0B81173A9A12004B39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC0B90173A9A12004B39DC /* InfoPlist.strings in Resources */,
+				2AD1B859173AEF7200B17D01 /* braille.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AAC0B82173A9A12004B39DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AAC0B57173A9A11004B39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC0B6B173A9A11004B39DC /* main.m in Sources */,
+				2AAC0B6F173A9A11004B39DC /* AppDelegate.m in Sources */,
+				2AAC0BA4173A9C74004B39DC /* Connector.m in Sources */,
+				2AAC0BAD173AA1BB004B39DC /* BrailleCharacter.m in Sources */,
+				2AAC0BB0173AA1F6004B39DC /* BrailleDot.m in Sources */,
+				2A277214173ABBA0006A4000 /* KurzschriftCharacter.m in Sources */,
+				2AD1B851173ADAB700B17D01 /* MainMenuViewController.m in Sources */,
+				2AD1B856173ADDC900B17D01 /* VSViewController.m in Sources */,
+				2AC99CF1173BAB4700259FBD /* BrailleListViewController.m in Sources */,
+				2AC99CF6173BAFDF00259FBD /* KSMenuViewController.m in Sources */,
+				2ADC006417F46C3E005E61DC /* coloredButton.m in Sources */,
+				2AC99CFB173BB59800259FBD /* KSViewController.m in Sources */,
+				2AE64501173BC5D700E7BCC2 /* VSListViewController.m in Sources */,
+				2AE6450A173BCA6000E7BCC2 /* KSListMenuViewController.m in Sources */,
+				2AE6450F173BCB8100E7BCC2 /* KSListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAC0B7F173A9A12004B39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC0B93173A9A12004B39DC /* Braille_LernprogrammTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AAC0B8A173A9A12004B39DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AAC0B5A173A9A11004B39DC /* Braille Übungen */;
+			targetProxy = 2AAC0B89173A9A12004B39DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AAC0B67173A9A11004B39DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAC0B68173A9A11004B39DC /* en */,
+				2AE64505173BCA2600E7BCC2 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AAC0B76173A9A12004B39DC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAC0B77173A9A12004B39DC /* en */,
+				2AE64503173BCA2600E7BCC2 /* de */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2AAC0B79173A9A12004B39DC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAC0B7A173A9A12004B39DC /* en */,
+				2AE64504173BCA2600E7BCC2 /* de */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2AAC0B8E173A9A12004B39DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAC0B8F173A9A12004B39DC /* en */,
+				2AE64506173BCA2600E7BCC2 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AAC0B94173A9A12004B39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AAC0B95173A9A12004B39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AAC0B97173A9A12004B39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Braille-Lernprogramm/Braille Übungen-Prefix.pch";
+				INFOPLIST_FILE = "Braille-Lernprogramm/Braille Übungen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Braille Übungen";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "219B9CA2-E24D-4E5D-8272-546580E5683A";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AAC0B98173A9A12004B39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Braille-Lernprogramm/Braille Übungen-Prefix.pch";
+				INFOPLIST_FILE = "Braille-Lernprogramm/Braille Übungen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Braille Übungen";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2AAC0B9A173A9A12004B39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Braille-Lernprogramm.app/Braille-Lernprogramm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Braille-Lernprogramm/Braille-Lernprogramm-Prefix.pch";
+				INFOPLIST_FILE = "Braille-LernprogrammTests/Braille ÜbungenTests-Info.plist";
+				PRODUCT_NAME = "Braille ÜbungenTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2AAC0B9B173A9A12004B39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Braille-Lernprogramm.app/Braille-Lernprogramm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Braille-Lernprogramm/Braille-Lernprogramm-Prefix.pch";
+				INFOPLIST_FILE = "Braille-LernprogrammTests/Braille ÜbungenTests-Info.plist";
+				PRODUCT_NAME = "Braille ÜbungenTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AAC0B56173A9A11004B39DC /* Build configuration list for PBXProject "Braille Übungen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAC0B94173A9A12004B39DC /* Debug */,
+				2AAC0B95173A9A12004B39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAC0B96173A9A12004B39DC /* Build configuration list for PBXNativeTarget "Braille Übungen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAC0B97173A9A12004B39DC /* Debug */,
+				2AAC0B98173A9A12004B39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAC0B99173A9A12004B39DC /* Build configuration list for PBXNativeTarget "Braille ÜbungenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAC0B9A173A9A12004B39DC /* Debug */,
+				2AAC0B9B173A9A12004B39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AAC0B53173A9A11004B39DC /* Project object */;
+}

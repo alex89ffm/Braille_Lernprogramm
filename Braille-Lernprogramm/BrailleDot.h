@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BrailleDot.h
 //  Braille-Lernprogramm
 //
 //  Created by Alexander Eiselt on 08.05.13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface BrailleDot : UIView
 
+@property(nonatomic, retain)UIButton *dotButton;
+@property bool isselected;
 @end
